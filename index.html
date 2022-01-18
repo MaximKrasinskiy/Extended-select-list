@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+                <div class="header__top">
+                    <div class="name__product">Наименование товара</div>
+                    <div class="count-check__product">Показать товары(<span id="count">0</span>)</div>
+                </div>
+                <div class="input__search">
+                    <input id="search" placeholder="Наименование закупаемой продукции" type="search" value="" name="poisk" >
+                </div>
+        </header>
+
+        <main>
+                    <select  id="select" multiple class="visually-hidden">
+                        <option data-counter selected  value="one">Чайник электрический(Bosh)</option>
+                        <option data-counter value="46">Стиральная машина(LG)</option>
+                        <option data-counter value="389">Телевизор (Samsung)</option>
+                        <option data-counter value="74">Плита электрическая из Германии(Tefal)</option>
+                        <option data-counter value="703">Посудомойка</option>
+                        <option data-counter value="372">Микроволновка</option>
+                        <option data-counter value="21">Мултиварка(Redmond)</option>
+                        <option data-counter value="137">Погружной блендер(Braun)</option>
+                    </select>
+                    <div class="btns">
+                        <button id="btn-sub"  type="submit">Применить</button>
+                        <button id="btn-reset" type="reset">Очистить</button>
+                    </div>                
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
